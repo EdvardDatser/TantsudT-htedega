@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Arial';
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+table { /*Делят клетки внутри таблицы*/
+    width: 100%;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid whitesmoke;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+form {
+    margin-top: 20px;
+}
+input[type="text"], input[type="submit"], input[type="button"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+input[type="submit"], input[type="button"] {
+    background-color: limegreen;
+    color: white;
+    border: none;
+    cursor: pointer; /* Видно курсор над обьектом*/
+}
+td{
+    background-color: white;
+}
+td[colspan=”2″] {
+    text-align: center;
+}
+h1{
+    color: white;
+    background-color: black;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
